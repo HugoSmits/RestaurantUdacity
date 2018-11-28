@@ -66,7 +66,7 @@ vagrant up
 
 ## Download the data
 
-##### Next, download the data [here](https://github.com/HugoSmits/RestaurantUdacity). You can fork the repository and clone it to your local git repository. The files needed are called database_setup.py and lotsofmenus.py . The rest are personal answers to the project. Put this file into the vagrant directory, which is shared with your virtual machine.
+##### Next, download the data [here](https://github.com/HugoSmits/RestaurantUdacity). You can fork the repository and clone it to your local git repository. The files needed are called database_setup.py and lotsofmenus.py . The rest are personal answers to the project. Put these files into the vagrant directory, which is shared with your virtual machine.
 
 ##### Within the repository you can find the file called Vagrantfile which will help you set up your vagrant environment with the right configurations. BEWARE: config.vm.box_download_insecure is set to TRUE. Doesn't verify ssl certificates. Line can be removed or altered at said file. Setup can't be guaranteed if done so.
 
